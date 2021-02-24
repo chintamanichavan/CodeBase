@@ -4,20 +4,27 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        {
-          "name": "make and debug active file",
-          "type": "cppdbg",
-          "request": "launch",
-          "program": "${fileDirname}/${fileBasenameNoExtension}.out",
-          "cwd": "${workspaceFolder}",
-          "setupCommands": [
-            {
-              "description": "Enable pretty-printing for gdb",
-              "text": "-enable-pretty-printing",
-              "ignoreFailures": true
-            }
-          ],
-          "preLaunchTask": "${defaultBuildTask}"
-        }
-      ]
+      {
+        "type": "java",
+        "name": "Launch HelloWorld",
+        "request": "launch",
+        "mainClass": "Java.HelloWorld",
+        "projectName": "CodeBase_f71bb966"
+      },
+      {
+        "name": "make and debug active file",
+        "type": "cppdbg",
+        "request": "launch",
+        "program": "${fileDirname}/${fileBasenameNoExtension}.out",
+        "cwd": "${workspaceFolder}",
+        "setupCommands": [
+          {
+            "description": "Enable pretty-printing for gdb",
+            "text": "-enable-pretty-printing",
+            "ignoreFailures": true
+          }
+        ],
+        "preLaunchTask": "${defaultBuildTask}"
+      }
+    ]
 }
