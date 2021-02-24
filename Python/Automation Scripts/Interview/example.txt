@@ -1,0 +1,5 @@
+SunDialer,--flang=flooble --bip=bop --slide=15,06:00:00,18:00:00
+Viper,-D 99m,13:50:11,15:04:10
+Paranoid,,16:00:00,19:13:11
+Reactor,,07:43:00,23:59:00
+Quantizer,-l a --hello=there -w=o,12:00:00,23:12:00

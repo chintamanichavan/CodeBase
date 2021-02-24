@@ -7,5 +7,5 @@ myList = ["Max", 28, "Boston"]
 print(sys.getsizeof(myList), "bytes")
 print(sys.getsizeof(myTuple), "bytes")
 
-#working with tuples can be more efficient than working with tuples
+#working with tuples can be more efficient than working with lists
 # it uses less memory and is faster than the list

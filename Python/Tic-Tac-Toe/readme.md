@@ -1,0 +1,3 @@
+- Grab the user input 'O' or 'X'
+- Manipulate a variable based on the input
+- Return back adjusted variable

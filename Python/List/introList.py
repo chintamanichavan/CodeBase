@@ -77,3 +77,5 @@ print(list_org)
 mylist7 = [i*i for i in mylist3]
 
 print(mylist7)
+
+#dict comprehension
