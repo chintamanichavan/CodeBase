@@ -79,3 +79,6 @@ mylist7 = [i*i for i in mylist3]
 print(mylist7)
 
 #dict comprehension
+
+mylist9 = mylist2 + mylist3
+print(mylist9)
